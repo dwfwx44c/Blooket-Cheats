@@ -8,10 +8,10 @@ var axios = Object.values(webpackJsonp.push([[], { ['']: (_, a, b) => { a.cache 
 
 axios.get("https://api.blooket.com/api/users").then(async ({ data: { name, tokens } }) => {
     let prices = {
-        medieval: 15,
-        breakfast: 15,
+        medieval: 1,
+        breakfast: 1,
         wonderland: 15,
-        space: 20,
+        space: 1,
         bot: 20,
         aquatic: 20,
         safari: 20,
